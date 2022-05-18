@@ -1,0 +1,16 @@
+let str="amisha soni";
+let str1='amisha soni';
+console.log(str.charAt(2));
+console.log(str.toLowerCase());
+console.log(str.toUpperCase());
+let a=str.split('');
+console.log(a);
+console.log(a.join(''));
+console.log(str.includes("soi",0));
+console.log(str.indexOf("soni"));
+console.log(str.localeCompare(str1));
+console.log(str.match(/[a-z]/g));
+console.log(str1.trim());
+console.log(str.length);
+let b= str==str1 ? "true" :"False";
+console.log(b);
